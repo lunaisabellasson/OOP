@@ -23,8 +23,8 @@ class Producto {
 public class MainProducto {
  public static void main(String[] args) {
  Producto p1 = new Producto();
- Producto p2 = new Producto("Cuaderno");
- Producto p3 = new Producto("Lapiz", 2500.0);
+ Producto p2 = new Producto("Borrador");
+ Producto p3 = new Producto("Labial", 2400.0);
 
  p1.mostrar();
  System.out.println();
